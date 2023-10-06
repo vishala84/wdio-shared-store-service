@@ -1,0 +1,186 @@
+2023-10-06 06:55:01:769 [Appium] Welcome to Appium v1.21.0
+2023-10-06 06:55:01:770 [Appium] Non-default server args:
+2023-10-06 06:55:01:770 [Appium]   address: localhost
+2023-10-06 06:55:01:770 [Appium]   basePath: /
+2023-10-06 06:55:01:770 [Appium]   logFile: ./reports/appium.log
+2023-10-06 06:55:01:770 [Appium]   relaxedSecurityEnabled: true
+2023-10-06 06:55:01:791 [Appium] Appium REST http interface listener started on localhost:4723
+2023-10-06 06:55:03:404 [HTTP] --> POST /session
+2023-10-06 06:55:03:405 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"}}
+2023-10-06 06:55:03:406 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},null,{"alwaysMatch":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},"firstMatch":[{}]}]
+2023-10-06 06:55:03:407 [BaseDriver] Event 'newSessionRequested' logged at 1696575303407 (12:25:03 GMT+0530 (India Standard Time))
+2023-10-06 06:55:03:409 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-10-06 06:55:03:409 [BaseDriver]   automationName
+2023-10-06 06:55:03:410 [BaseDriver]   noReset
+2023-10-06 06:55:03:410 [BaseDriver]   appPackage
+2023-10-06 06:55:03:410 [BaseDriver]   appActivity
+2023-10-06 06:55:03:410 [BaseDriver]   deviceName
+2023-10-06 06:55:03:410 [BaseDriver]   platformVersion
+2023-10-06 06:55:03:410 [BaseDriver]   udid
+2023-10-06 06:55:03:606 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2023-10-06 06:55:03:607 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2023-10-06 06:55:03:608 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-10-06 06:55:03:608 [BaseDriver] Creating session with W3C capabilities: {
+2023-10-06 06:55:03:608 [BaseDriver]   "alwaysMatch": {
+2023-10-06 06:55:03:609 [BaseDriver]     "platformName": "Android",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:noReset": true,
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:appPackage": "com.synchronoss.pcloud.android.syncdrive",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:appActivity": "com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:deviceName": "Pixel 4a",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:platformVersion": "11",
+2023-10-06 06:55:03:609 [BaseDriver]     "appium:udid": "13231JEC201467"
+2023-10-06 06:55:03:609 [BaseDriver]   },
+2023-10-06 06:55:03:609 [BaseDriver]   "firstMatch": [
+2023-10-06 06:55:03:609 [BaseDriver]     {}
+2023-10-06 06:55:03:609 [BaseDriver]   ]
+2023-10-06 06:55:03:609 [BaseDriver] }
+2023-10-06 06:55:03:614 [BaseDriver] Session created with session id: f9368f16-d8cf-479e-81dc-9956a618cf84
+2023-10-06 06:55:03:614 [UiAutomator2] Starting 'com.synchronoss.pcloud.android.syncdrive' directly on the device
+2023-10-06 06:55:03:628 [ADB] Found 2 'build-tools' folders under '/Users/vnag0001/Library/Android/sdk' (newest first):
+2023-10-06 06:55:03:628 [ADB]     /Users/vnag0001/Library/Android/sdk/build-tools/33.0.2
+2023-10-06 06:55:03:628 [ADB]     /Users/vnag0001/Library/Android/sdk/build-tools/30.0.3
+2023-10-06 06:55:03:629 [ADB] Using 'adb' from '/Users/vnag0001/Library/Android/sdk/platform-tools/adb'
+2023-10-06 06:55:03:630 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-10-06 06:55:03:658 [AndroidDriver] Retrieving device list
+2023-10-06 06:55:03:658 [ADB] Trying to find a connected android device
+2023-10-06 06:55:03:658 [ADB] Getting connected devices
+2023-10-06 06:55:03:680 [ADB] Connected devices: [{"udid":"13231JEC201467","state":"device"}]
+2023-10-06 06:55:03:680 [AndroidDriver] Using device: 13231JEC201467
+2023-10-06 06:55:03:681 [ADB] Using 'adb' from '/Users/vnag0001/Library/Android/sdk/platform-tools/adb'
+2023-10-06 06:55:03:681 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-10-06 06:55:03:702 [ADB] Setting device id to 13231JEC201467
+2023-10-06 06:55:03:702 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell getprop ro.build.version.sdk'
+2023-10-06 06:55:03:744 [ADB] Current device property 'ro.build.version.sdk': 30
+2023-10-06 06:55:03:745 [ADB] Getting device platform version
+2023-10-06 06:55:03:745 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell getprop ro.build.version.release'
+2023-10-06 06:55:03:790 [ADB] Current device property 'ro.build.version.release': 11
+2023-10-06 06:55:03:790 [ADB] Device API level: 30
+2023-10-06 06:55:03:791 [UiAutomator2] Relaxing hidden api policy
+2023-10-06 06:55:03:791 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2023-10-06 06:55:03:903 [AndroidDriver] No app sent in, not parsing package/activity
+2023-10-06 06:55:03:903 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 wait-for-device'
+2023-10-06 06:55:03:924 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell echo ping'
+2023-10-06 06:55:03:958 [AndroidDriver] Pushing settings apk to device...
+2023-10-06 06:55:03:958 [ADB] Getting install status for io.appium.settings
+2023-10-06 06:55:03:958 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys package io.appium.settings'
+2023-10-06 06:55:04:015 [ADB] 'io.appium.settings' is installed
+2023-10-06 06:55:04:015 [ADB] Getting package info for 'io.appium.settings'
+2023-10-06 06:55:04:015 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys package io.appium.settings'
+2023-10-06 06:55:04:080 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.3.0' >= '3.3.0')
+2023-10-06 06:55:04:081 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2023-10-06 06:55:04:081 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-10-06 06:55:04:081 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell 'pgrep --help; echo $?''
+2023-10-06 06:55:04:124 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-10-06 06:55:04:194 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2023-10-06 06:55:04:195 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell appops set io.appium.settings android:mock_location allow'
+2023-10-06 06:55:04:247 [Logcat] Starting logs capture with command: /Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 logcat -v threadtime
+2023-10-06 06:55:04:301 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2023-10-06 06:55:04:301 [ADB] Forwarding system: 8200 to device: 6790
+2023-10-06 06:55:04:302 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 forward tcp:8200 tcp:6790'
+2023-10-06 06:55:04:333 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-10-06 06:55:04:333 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys package io.appium.uiautomator2.server'
+2023-10-06 06:55:04:382 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-10-06 06:55:04:382 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-10-06 06:55:04:382 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys package io.appium.uiautomator2.server'
+2023-10-06 06:55:04:436 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.21.1' >= '4.21.1')
+2023-10-06 06:55:04:436 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-10-06 06:55:04:436 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk
+2023-10-06 06:55:04:438 [ADB] Using 'apksigner.jar' from '/Users/vnag0001/Library/Android/sdk/build-tools/33.0.2/lib/apksigner.jar'
+2023-10-06 06:55:04:439 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/vnag0001/Library/Android/sdk/build-tools/33.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk
+2023-10-06 06:55:04:902 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-10-06 06:55:04:902 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-10-06 06:55:04:902 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-10-06 06:55:04:902 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-10-06 06:55:04:902 [ADB] 
+2023-10-06 06:55:04:903 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.21.1.apk'
+2023-10-06 06:55:04:903 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+2023-10-06 06:55:04:903 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-10-06 06:55:04:903 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys package io.appium.uiautomator2.server.test'
+2023-10-06 06:55:04:960 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-10-06 06:55:04:960 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2023-10-06 06:55:04:960 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/vnag0001/Library/Android/sdk/build-tools/33.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2023-10-06 06:55:05:347 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-10-06 06:55:05:347 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-10-06 06:55:05:347 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-10-06 06:55:05:347 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-10-06 06:55:05:347 [ADB] 
+2023-10-06 06:55:05:347 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-10-06 06:55:05:347 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-10-06 06:55:05:348 [UiAutomator2] Server packages are not going to be (re)installed
+2023-10-06 06:55:05:349 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-10-06 06:55:05:349 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell pm list instrumentation'
+2023-10-06 06:55:05:410 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-10-06 06:55:05:411 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-10-06 06:55:05:412 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-10-06 06:55:05:412 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-10-06 06:55:05:485 [UiAutomator2] No app capability. Assuming it is already on the device
+2023-10-06 06:55:05:485 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-10-06 06:55:05:508 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2023-10-06 06:55:05:508 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell am force-stop io.appium.uiautomator2.server.test'
+2023-10-06 06:55:05:569 [UiAutomator2] Starting UIAutomator2 server 4.21.1
+2023-10-06 06:55:05:569 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2023-10-06 06:55:05:569 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-10-06 06:55:05:569 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","13231JEC201467","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-10-06 06:55:05:572 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-10-06 06:55:05:573 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-10-06 06:55:05:580 [WD Proxy] socket hang up
+2023-10-06 06:55:06:165 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-10-06 06:55:06:581 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-10-06 06:55:06:582 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-10-06 06:55:06:592 [WD Proxy] socket hang up
+2023-10-06 06:55:07:593 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-10-06 06:55:07:593 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-10-06 06:55:07:664 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-10-06 06:55:07:665 [UiAutomator2] The initialization of the instrumentation process took 2096ms
+2023-10-06 06:55:07:665 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-10-06 06:55:07:665 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"13231JEC201467","platformVersion":"11","udid":"13231JEC201467","deviceUDID":"13231JEC201467"}],"alwaysMatch":{}}}
+2023-10-06 06:55:07:684 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"13231JEC201467","platformVersion":"11","udid":"13231JEC201467","deviceUDID":"13231JEC201467"}],"alwaysMatch":{}},"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1"}}
+2023-10-06 06:55:07:684 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-10-06 06:55:07:690 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/08cfcaff-a06e-4166-856a-2519c90746a1/appium/device/info] with no body
+2023-10-06 06:55:07:714 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":{"androidId":"8c7c4cbffa07c510","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"Pixel 4a","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":611914,"linkUpstreamBandwidthKbps":387247,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-48,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"11","realDisplaySize":"1080x2340","timeZone":"Asia/Kolkata"}}
+2023-10-06 06:55:07:715 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell dumpsys window'
+2023-10-06 06:55:07:799 [AndroidDriver] Screen already unlocked, doing nothing
+2023-10-06 06:55:07:799 [UiAutomator2] Starting 'com.synchronoss.pcloud.android.syncdrive/com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity and waiting for 'com.synchronoss.pcloud.android.syncdrive/com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity'
+2023-10-06 06:55:07:799 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell am start -W -n com.synchronoss.pcloud.android.syncdrive/com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-10-06 06:55:12:021 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/08cfcaff-a06e-4166-856a-2519c90746a1/appium/device/pixel_ratio] with no body
+2023-10-06 06:55:12:033 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":2.75}
+2023-10-06 06:55:12:034 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-10-06 06:55:12:034 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/08cfcaff-a06e-4166-856a-2519c90746a1/appium/device/system_bars] with no body
+2023-10-06 06:55:12:047 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":{"statusBar":136}}
+2023-10-06 06:55:12:048 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-10-06 06:55:12:048 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/08cfcaff-a06e-4166-856a-2519c90746a1/window/current/size] with no body
+2023-10-06 06:55:12:071 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":{"height":2072,"width":1080}}
+2023-10-06 06:55:12:072 [Appium] New AndroidUiautomator2Driver session created successfully, session f9368f16-d8cf-479e-81dc-9956a618cf84 added to master session list
+2023-10-06 06:55:12:072 [BaseDriver] Event 'newSessionStarted' logged at 1696575312072 (12:25:12 GMT+0530 (India Standard Time))
+2023-10-06 06:55:12:072 [W3C (f9368f16)] Cached the protocol value 'W3C' for the new session f9368f16-d8cf-479e-81dc-9956a618cf84
+2023-10-06 06:55:12:073 [W3C (f9368f16)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"Pixel 4a","platformVersion":"11","udid":"13231JEC201467"},"platformName":"Android","automationName":"UiAutomator2","noReset":true,"appPackage":"com.synchronoss.pcloud.android.syncdrive","appActivity":"com.synchronoss.pcloud.android.syncdrive.gui.activities.SplashLogoActivity","deviceName":"13231JEC201467","platformVersion":"11","udid":"13231JEC201467","deviceUDID":"13231JEC201467","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":440,"deviceModel":"Pixel 4a","deviceManufacturer":"Google","pixelRatio":2.75,"statBarHeight":136,"viewportRec...
+2023-10-06 06:55:12:075 [HTTP] <-- POST /session 200 8670 ms - 1134
+2023-10-06 06:55:12:075 [HTTP] 
+2023-10-06 06:55:12:107 [HTTP] --> DELETE /session/f9368f16-d8cf-479e-81dc-9956a618cf84
+2023-10-06 06:55:12:107 [HTTP] {}
+2023-10-06 06:55:12:108 [W3C (f9368f16)] Calling AppiumDriver.deleteSession() with args: ["f9368f16-d8cf-479e-81dc-9956a618cf84"]
+2023-10-06 06:55:12:108 [BaseDriver] Event 'quitSessionRequested' logged at 1696575312108 (12:25:12 GMT+0530 (India Standard Time))
+2023-10-06 06:55:12:108 [Appium] Removing session f9368f16-d8cf-479e-81dc-9956a618cf84 from our master session list
+2023-10-06 06:55:12:108 [UiAutomator2] Deleting UiAutomator2 session
+2023-10-06 06:55:12:109 [UiAutomator2] Deleting UiAutomator2 server session
+2023-10-06 06:55:12:109 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-10-06 06:55:12:109 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/08cfcaff-a06e-4166-856a-2519c90746a1] with no body
+2023-10-06 06:55:12:125 [WD Proxy] Got response with status 200: {"sessionId":"08cfcaff-a06e-4166-856a-2519c90746a1","value":null}
+2023-10-06 06:55:12:126 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell am force-stop com.synchronoss.pcloud.android.syncdrive'
+2023-10-06 06:55:12:227 [Logcat] Stopping logcat capture
+2023-10-06 06:55:12:231 [ADB] Removing forwarded port socket connection: 8200 
+2023-10-06 06:55:12:231 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 forward --remove tcp:8200'
+2023-10-06 06:55:12:249 [Instrumentation] .
+2023-10-06 06:55:12:260 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2023-10-06 06:55:12:260 [ADB] Running '/Users/vnag0001/Library/Android/sdk/platform-tools/adb -P 5037 -s 13231JEC201467 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2023-10-06 06:55:12:269 [Instrumentation] Time: 6.089
+2023-10-06 06:55:12:269 [Instrumentation] 
+2023-10-06 06:55:12:269 [Instrumentation] OK (1 test)
+2023-10-06 06:55:12:368 [BaseDriver] Event 'quitSessionFinished' logged at 1696575312368 (12:25:12 GMT+0530 (India Standard Time))
+2023-10-06 06:55:12:368 [W3C (f9368f16)] Received response: null
+2023-10-06 06:55:12:368 [W3C (f9368f16)] But deleting session, so not returning
+2023-10-06 06:55:12:368 [W3C (f9368f16)] Responding to client with driver.deleteSession() result: null
+2023-10-06 06:55:12:370 [HTTP] <-- DELETE /session/f9368f16-d8cf-479e-81dc-9956a618cf84 200 262 ms - 14
+2023-10-06 06:55:12:370 [HTTP] 
+2023-10-06 06:55:12:489 [Appium] Received SIGTERM - shutting down
